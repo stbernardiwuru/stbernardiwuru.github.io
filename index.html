@@ -158,40 +158,58 @@
     <main>
 
         <!-- 1. Hero / Home Section -->
-        <section id="home" class="bg-monastic-green bg-grid-pattern text-monastic-cream min-h-[90vh] flex flex-col justify-center relative overflow-hidden py-16 px-4">
-            <div class="max-w-4xl mx-auto text-center relative z-10">
-                
-                <!-- Benedictine Badge -->
-                <div class="inline-flex items-center space-x-3 px-6 py-2.5 rounded border border-monastic-gold/60 bg-monastic-dark/80 mb-8 shadow-lg">
-                    <span class="text-monastic-gold font-serif">&#10014;</span>
-                    
-                </div>
+        <!-- 1. Hero / Home Section --><section
+    id="home"
+    class="relative min-h-[90vh] flex flex-col justify-center items-center overflow-hidden px-4 py-20 text-monastic-cream"
+    style="background-image: linear-gradient(rgba(8, 28, 18, 0.62), rgba(8, 28, 18, 0.72)), url('images/chapel.jpg'); background-size: cover; background-position: center; background-repeat: no-repeat;"
+><!-- Main Content -->
+<div class="max-w-5xl mx-auto text-center relative z-10">
 
-                <!-- Main Title -->
-                <h1 class="text-4xl sm:text-6xl md:text-7xl font-serif font-bold tracking-tight mb-4 text-white leading-tight">
-                    ST BERNARD BENEDICTINE MONASTERY
-                </h1>
+    <!-- Decorative Monastery Emblem -->
+    <div class="inline-flex items-center justify-center w-14 h-14 rounded-full border border-monastic-gold bg-monastic-dark/60 text-monastic-gold mb-8">
+        <span class="text-3xl font-serif">&#10014;</span>
+    </div>
 
-                <p class="text-xl sm:text-2xl text-monastic-gold font-serif italic mb-8">
-                    Iwuru Central, Akamkpa L.G.A., Cross River State, Nigeria
-                </p>
+    <!-- Main Title -->
+    <h1 class="text-4xl sm:text-6xl md:text-7xl font-serif font-bold tracking-tight mb-6 text-white leading-tight">
+        ST BERNARD BENEDICTINE MONASTERY
+    </h1>
 
-                <p class="text-base sm:text-lg text-monastic-muted max-w-2xl mx-auto leading-relaxed font-sans mb-10">
-                    A warm and reverent welcome in Christ Jesus to all pilgrims, guests, and faithful visitors. Nestled in the quiet natural beauty of Iwuru Central, St Bernard Benedictine Monastery offers a sacred refuge dedicated to the perpetual praise and worship of Almighty God.
-                </p>
+    <!-- Location -->
+    <p class="text-lg sm:text-2xl text-monastic-goldLight font-serif italic mb-8">
+        Iwuru Central, Akamkpa L.G.A., Cross River State, Nigeria
+    </p>
 
-                <div class="flex flex-wrap justify-center gap-4">
-                    <a href="#about" class="px-8 py-3.5 rounded bg-monastic-gold text-monastic-dark font-semibold tracking-wide hover:bg-monastic-goldLight transition shadow-lg font-serif text-lg">
-                        Discover Our Community
-                    </a>
-                    <a href="#contact" class="px-8 py-3.5 rounded border border-monastic-gold text-monastic-gold font-semibold tracking-wide hover:bg-monastic-gold/10 transition font-serif text-lg">
-                        Contact Us
-                    </a>
-                </div>
-            </div>
-            
-            <div class="absolute bottom-0 left-0 right-0 h-16 bg-gradient-to-t from-monastic-cream to-transparent pointer-events-none"></div>
-        </section>
+    <!-- Welcome Message -->
+    <p class="text-base sm:text-lg text-white max-w-3xl mx-auto leading-relaxed mb-10">
+        A warm and reverent welcome in Christ Jesus to all pilgrims, guests, and faithful visitors. Nestled in the quiet natural beauty of Iwuru Central, St. Bernard Benedictine Monastery offers a sacred refuge dedicated to prayer, contemplation, work, and hospitality.
+    </p>
+
+    <!-- Action Buttons -->
+    <div class="flex flex-wrap justify-center gap-4">
+
+        <a
+            href="#about"
+            class="px-8 py-3.5 rounded bg-monastic-gold text-monastic-dark font-semibold tracking-wide hover:bg-monastic-goldLight transition shadow-lg font-serif text-lg"
+        >
+            Discover Our Community
+        </a>
+
+        <a
+            href="#contact"
+            class="px-8 py-3.5 rounded border border-monastic-gold text-white font-semibold tracking-wide hover:bg-monastic-gold/20 transition font-serif text-lg"
+        >
+            Contact Us
+        </a>
+
+    </div>
+
+</div>
+
+<!-- Transition into the Cream Section Below -->
+<div class="absolute bottom-0 left-0 right-0 h-20 bg-gradient-to-t from-monastic-cream to-transparent pointer-events-none"></div>
+
+</section>
 
         <!-- 2. About Section -->
         <section id="about" class="py-20 px-4 bg-monastic-cream">
