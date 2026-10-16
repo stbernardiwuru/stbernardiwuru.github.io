@@ -1,2 +1,2 @@
 # stbernardiwuru.github.io
-Webpage prototype for St. Bernard Benedictine Monastery, Iwuru Central.
+Webpage for St Bernard Benedictine Monastery, Iwuru Central, Akamkpa L.G.A., Cross River State.
